@@ -1,129 +1,389 @@
+/* ---------------------------------PokerLive logo css start here------------------------------ */
+#pbLogo {
+  position: absolute;
+  margin-top: 26px;
+  margin-left: 39px;
+  width: 200px;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  #pbLogo {
+    visibility: hidden;
+  }
+}
+.blContainer {
+  display: none;
+  padding: 15.3px;
+  background-color: white;
+}
+@media (max-width: 1024px) {
+  .blContainer {
+    display: block;
+    text-align: center;
+  }
+  #blLogo {
+    width: 200px;
+  }
+}
+@media (max-width: 680px) {
+  #footer__logo__img {
+    margin-left: 0px;
+    width: 300px;
+  }
+}
+.footer__logo {
+  width: 250px;
+  margin-top: 70px;
+  /* margin-left: 120px; */
+  cursor: pointer;
+}
+/* -----------------------------------all logo css ended here-----------------------------------*/
+
+/* ----------------background img css and its content css start here-------------------------- */
+.hmSlider {
+  /* The image used */
+  background-image: url("https://pokerbaazilive.com/wp-content/uploads/2019/07/Home_Slider.png");
+  /* Set a specific height */
+  min-height: 700px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-attachment: scroll; */
+}
+.hmSlider__content {
+  position: absolute;
+  margin-top: 130px;
+  padding-left: 120px;
+}
+@media (max-width: 912px) {
+  .hmSlider__content {
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 680px) {
+  .hmSlider__content {
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+  }
+}
+@media (max-width: 820px) {
+  .hmSlider__content {
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+  }
+}
+.hmSlider__h2 {
+  color: white;
+  font-size: 25px;
+}
+@media (max-width: 680px) {
+  .hmSlider__h2 {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+}
+.hmSlider__span {
+  color: #ee0034;
+}
+@media (max-width: 680px) {
+  .hmSlider__span {
+    color: #ee0034;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+.hmSlider__h1 {
+  font-size: 90px;
+  line-height: 75px;
+  font-weight: 700;
+  color: white;
+  margin-top: -20px;
+  padding: 0px;
+}
+@media (max-width: 680px) {
+  .hmSlider__h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    color: white;
+    margin-top: -10px;
+  }
+}
+.hmSlider__p {
+  z-index: 6;
+  min-width: 658px;
+  max-width: 658px;
+  white-space: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+
+  margin-top: -40px;
+
+  min-height: 0px;
+}
+@media (max-width: 680px) {
+  .hmSlider__p {
+    z-index: 6;
+    min-width: 240px;
+    max-width: 240px;
+
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+    margin-top: -30px;
+  }
+}
+
+/* ----------------background img css and its content css ended here-------------------------- */
+
+/* ---------------------custom css of bootstrap container start here--------------------------- */
 .container {
-  padding: 0 2rem;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* ---------------------custom css of bootstrap container ended here--------------------------- */
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+/*---------------------- iframe css and its content css start here----------------------------- */
+.iframe__container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 680px) {
+  .iframe__container {
+    display: inline-block;
+  }
 }
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+@media (max-width: 680px) {
+  #iframeId {
+    margin-top: 20px;
+    width: min-content;
+    height: min-content;
+  }
+  .iframeClass {
+    justify-content: center;
+    text-align: center;
+  }
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.line {
+  /* display: inline-block; */
+  vertical-align: top;
+  width: 122px;
+  height: 3px;
+  margin: 22px 0 0;
+  background-color: #263275;
 }
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.h3 {
+  font-size: 27px;
+  line-height: 40px;
 }
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+.paragraph {
+  margin: 10px 0;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+  color: #868686;
 }
-
-.title,
-.description {
-  text-align: center;
+.content {
+  margin-top: -60px;
+  padding: 32px;
+  display: inline-block;
+  width: 50%;
 }
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
+@media (max-width: 820px) {
+  .iframe__container {
+    display: block;
+  }
+  .content {
     width: 100%;
-    flex-direction: column;
+    margin-top: -30px;
+    padding: 0px;
+    padding-right: 15px;
+    /* padding-left: 20px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 912px) {
+  .iframe__container {
+    display: block;
+  }
+  .content {
+    width: 100%;
+    margin-top: -30px;
+    padding: 0px;
+    padding-right: 15px;
+    /* padding-left: 20px; */
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 680px) {
+  .content {
+    width: 100%;
+    margin-top: -30px;
+    padding: 0px;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.paragraph__container {
+  padding-top: 20px;
+}
+.background_container {
+ 
+  background-image: url("https://pokerbaazilive.com/wp-content/uploads/2017/06/main-parallax-img-left.png");
+
+
+ 
+  /* background-attachment: fixed; */
+  background-position: left;
+  background-repeat: no-repeat;
+ 
+}
+/*---------------------- iframe css and its content css ended here----------------------------- */
+
+/* --------------------------------footer css start here--------------------------------------- */
+.footer__container {
+  background-color: #191919;
+  padding-bottom: 30px;
+}
+@media (max-width: 680px) {
+  .footer__container {
+    text-align: center;
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
+.footer__hr {
+  border-bottom: 1px solid #3d3d3d;
+  /* box-sizing: border-box; */
+  /* width: 1100px; */
+  width: auto;
+  margin: 0 auto;
+}
+@media (max-width: 680px) {
+  #footer_hr {
+    /* width: auto; */
+    border: 1px solid #3d3d3d;
+    width: 300px;
+    margin: 0 auto;
+    color: #3d3d3d;
+    margin-top: 150px;
   }
 }
+.footer__span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #a2a2a2;
+  font-family: Montserrat, sans-serif;
+  line-height: 26px;
+  /* margin-left: 120px; */
+}
+.footer__text__container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 680px) {
+  .footer__text__container {
+    display: block;
+  }
+}
+.footer__span2 {
+  font-family: "Libre Baskerville";
+  font-size: 14px;
+  font-style: italic;
+  color: #a2a2a2;
+}
+.footer__span3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #a2a2a2;
+  margin-right: 30px;
+}
+.fbpng {
+  width: 20px;
+  background-color: #a2a2a2;
+}
+.fbpng:hover {
+  background-color: blue;
+}
+.footer__button {
+  color: blue;
+  /* display: block; */
+  width: 40px;
+  height: 40px;
+  /* line-height: 39px; */
+  font-size: 25px;
+  text-align: center;
+  background-color: white;
+  border: none;
+  /* margin-left: 90px;     */
+}
+@media (max-width: 1024px) {
+  .footer__button {
+    margin-top: 30px;
+  }
+}
+.footer__button__container {
+  visibility: initial;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-top: -50px;
+}
+.footer__button:hover {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-8px);
+  color: red;
+  cursor: pointer;
+}
+/* --------------------------------footer css ended here--------------------------------------- */
