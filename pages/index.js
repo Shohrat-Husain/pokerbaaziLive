@@ -63,7 +63,7 @@ export default function Home() {
         >
           <div className={styles.container}>
             <div className={styles.iframe__container}>
-``              <div className={styles.iframeClass}>
+              <div className={styles.iframeClass}>
                 <iframe
                   id={styles.iframeId}
                   width="560"
